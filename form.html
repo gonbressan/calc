@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript"> 
+
+function calculate(op){
+    var op1 = document.calc.op1.value
+    var op2 = document.calc.op2.value 
+    var result = eval(op1 + op + op2)
+    document.calc.resultado.value = result
+}
+
+</script>
+<form name="calc">
+Operando 1:<input type="Text" name="op1" size="12">
+<br>
+Operando 2:<input type="Text" name="op2" size="12">
+<br>
+<input type="Button" name="" value=" + " onclick="calculate('+')">
+<input type="Button" name="" value=" - " onclick="calculate('-')">
+<input type="Button" name="" value=" X " onclick="calculate('*')">
+<input type="Button" name="" value=" / " onclick="calculate('/')">
+<input type="Button" name="" value=" Guardar sesion" onclick="">
+<input type="Button" name="" value=" Recuperar sesion " onclick="">
+<br>
+Resultado: <input type="Text" name="resultado" size="12">
+<br>
+Info: <input type="Text" name="recoveredSession" size="20">
+</form>
+</body>
+</html>
