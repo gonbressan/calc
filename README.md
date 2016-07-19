@@ -1,5 +1,12 @@
 # calc
 
+Para correr el programa siga estos pasos:
+
+1- Correr mongod como servidor de bases de datos
+2- Correr node app.js lo que iniciara el servidor y desde el navegador, accediendo a http://localhost:3000 podremos ver una simple calculadora.
+
+-----------------------------
+
 EJERCICIO (Incompleto, solo resta el tratamiento con la bd)
 ---------
 
