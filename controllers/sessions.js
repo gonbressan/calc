@@ -29,6 +29,7 @@ exports.addSession = function(req, res) {
 
 	var session = new Session({
 		op1:    req.body.op1,
+		op:		req.body.op,
 		op2: 	req.body.op2,
 		res: 	req.body.res
 	});
